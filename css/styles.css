@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery img {
+  align-items: center;
+  width: 100px;
+}
+
+@media (min-width: 768px) {
+  .gallery img {
+    width: 200px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .gallery img {
+    width: 300px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery img {
+  align-items: center;
+  width: 100px;
+}
+
+.gallery img {
+  @media (min-width: 768px) {
+    width: 200px;
+  }
+}
+
+.gallery img {
+  @media (min-width: 1400px) {
+    width: 300px;
+  }
+}
