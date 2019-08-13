@@ -10,4 +10,12 @@
   max-width: 1000px;
 }
 
+.gallery a {
+  margin: 1em 1em;
+}
+
+.gallery a[href="photos/thumbnails/01.jpg"] {
+  margin-top: 1em;
+}
+
 /*# sourceMappingURL=styles.css.map */
