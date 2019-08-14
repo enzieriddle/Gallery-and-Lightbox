@@ -13,3 +13,8 @@
 .gallery a {
   margin: 1em 1em;
 }
+
+img [src^="photos/thumbnails"] {
+  height: 400px;
+  width: 50%;
+}
